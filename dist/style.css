@@ -1,0 +1,59 @@
+body {
+  font-family: "Ubuntu";
+}
+
+.nav-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo {
+  font-family: "Kaushan Script", cursive;
+}
+
+.header {
+  font-family: "Kaushan Script", "Cuprum", sans-serif;
+  font-weight: 500;
+}
+
+#portafolio-img1 {
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url("http://ibrandstudio.com/wp-content/uploads/2013/06/responsive-portfolio-websites-Henry-Brown.jpg");
+  width: 100%;
+  height: 250px;
+}
+
+#portafolio-img2 {
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url("http://ibrandstudio.com/wp-content/uploads/2013/06/responsive-portfolio-websites-Hampus-Olsson.jpg");
+  width: 100%;
+  height: 250px;
+}
+
+#portafolio-img3 {
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-image: url("http://ibrandstudio.com/wp-content/uploads/2013/06/responsive-portfolio-websites-Website-Design-Agency-FHOKE.jpg");
+  width: 100%;
+  height: 250px;
+}
+
+.input-field label {
+  color: white !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
