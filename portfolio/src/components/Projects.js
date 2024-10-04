@@ -7,7 +7,7 @@ import colorSharp2 from '../assets/img/color-sharp2.png';
 import zomato from '../assets/img/Zomato.png';
 import natoursImg from '../assets/img/ECOMMERCE.png';
 import pharmacyImg from '../assets/img/Tic-Tac.png';
-import notesImg from '../assets/img/T0-DO-APP.png';
+import notesImg from '../assets/img/vishwassign.jpg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -18,7 +18,7 @@ export const Projects = () => {
       title: 'Spotify',
       description: 'Design & Development',
       imgUrl: socialImg,
-      link: 'https://shubhamkannojiya-spotify.netlify.app/'
+      link: 'https://vishwasjain.netlify.app/'
     },
     {
       title: 'Zomato',
@@ -31,25 +31,25 @@ export const Projects = () => {
       title: 'E-Commerce',
       description: 'Design & Development',
       imgUrl: natoursImg,
-      link: 'https://shubham70602.github.io/E-commerce/index.html'
+      link: 'https://vishwas-ecomm.netlify.app/'
     },
     {
       title: 'Tic-Tac-Toe',
       description: 'Design & Development',
       imgUrl: pharmacyImg,
-      link: 'https://shubhamtic-tac-toe.netlify.app/'
+      link: 'https://github.com/vishwasjain321/moviesRecommendationSystem'
     },
     {
-      title: 'To-Do-App',
+      title: 'Sign language',
       description: 'Design & Development',
       imgUrl: notesImg,
-      link: 'https://shubham1211.netlify.app'
+      link: 'https://github.com/vishwasjain321/moviesRecommendationSystem'
     },
     {
       title: 'Movie Recommendation',
       description: 'Design & Development',
       imgUrl: passwordImg,
-      link: 'https://vaibhav2536.github.io/Password-Generator/'
+      link: 'https://github.com/vishwasjain321/moviesRecommendationSystem'
     },
     
   ];

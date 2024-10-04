@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photoImg from "../assets/img/Photo.jpg";
+import photoImg from "../assets/img/vishwas.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -51,7 +51,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Shubham, a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Vishwas, a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a dedicated and ambitious web developer and student currently studying at IIIT Sonepat. My portfolio showcases a range of projects demonstrating my skills in responsive web design, UI/UX design, and performance optimization. Proficient in front-end technologies (HTML, CSS, JavaScript) and back-end technologies (Node.js, Express), I am committed to delivering high-quality, scalable web applications. Check out my work to see my dedication to quality and innovation.</p>
                   <div onClick={() => console.log('connect')}>
                     <button>Let’s Connect <ArrowRightCircle size={25} /></button>

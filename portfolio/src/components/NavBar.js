@@ -55,9 +55,9 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div> */}
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/shubham-kannojiya"><img src={navIcon1} alt="LinkedIn" /></a>
-                <a href="https://github.com/shubham70602?tab=repositories"><img src={giticon2} alt="Github"/></a>
-                <a href="https://www.instagram.com/__shubham_1211/"><img src={navIcon3} alt=" Twitter"/></a>
+                <a href="https://www.linkedin.com/in/vishwas-jain-8959a624a/"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://github.com/vishwasjain321"><img src={giticon2} alt="Github"/></a>
+                <a href="https://www.instagram.com/vishwasjain__/"><img src={navIcon3} alt=" Twitter"/></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
